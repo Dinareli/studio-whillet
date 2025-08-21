@@ -9,7 +9,7 @@ const AboutSection = () => {
               <div className="w-full h-full bg-coral rounded-full blur-xl"></div>
             </div>
             <img 
-              src="https://images.unsplash.com/photo-1594736797933-d0b22d3e3134?w=500&h=600&fit=crop&crop=face"
+              src="https://images.pexels.com/photos/2661256/pexels-photo-2661256.jpeg?_gl=1*1ytgpzv*_ga*MjEyMzk1MjIzNS4xNzU1ODAxNzYz*_ga_8JE65Q40S6*czE3NTU4MDE3NjMkbzEkZzEkdDE3NTU4MDI1NDgkajMxJGwwJGgw"
               alt="Katie Whillet - Makeup Artist"
               className="w-full max-w-md mx-auto rounded-lg shadow-elegant object-cover"
             />
@@ -22,22 +22,22 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-warm-gray text-sm uppercase tracking-wider">
-                MEET KATIE
+                CONHEÇA KATIE
               </p>
               <h2 className="text-5xl font-light text-foreground">
-                Makeup artist
+                Maquiadora
               </h2>
             </div>
             
             <div className="space-y-6 text-warm-gray leading-relaxed">
               <p>
-                With over 8 years of experience in the beauty industry, I specialize 
-                in creating stunning looks that enhance your natural beauty and boost 
-                your confidence.
+                Com mais de 8 anos de experiência no setor de beleza, sou especialista
+                em criar looks deslumbrantes que realçam sua beleza natural e aumentam
+                sua confiança.
               </p>
               <p>
-                From bridal makeup to special events, I use only the finest products 
-                and techniques to ensure you look and feel absolutely radiant.
+                Da maquiagem para noivas a eventos especiais, uso apenas os melhores produtos e técnicas 
+                para garantir que você esteja com uma aparência e se sinta absolutamente radiante.
               </p>
             </div>
             

@@ -2,12 +2,11 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const services = [
-  { name: "Bridal Makeup", price: "$150" },
-  { name: "Evening Makeup", price: "$80" },
-  { name: "Photoshoot Makeup", price: "$120" },
-  { name: "Special Event Makeup", price: "$100" },
-  { name: "Makeup Lesson", price: "$90" },
-  { name: "Group Booking (5+)", price: "$70" }
+  { name: "Maquiagem De Noiva", price: "R$500" },
+  { name: "Maquiagem Noturna", price: "R$120" },
+  { name: "Maquiagem Para Eventos Especiais", price: "R$150" },
+  { name: "Maquiagem Para Sessões Fotográficas", price: "R$180" },
+  { name: "Aula de Maquiagem", price: "R$250" },
 ];
 
 const ServicesSection = () => {
@@ -19,7 +18,7 @@ const ServicesSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-5xl font-light text-foreground">
-                Services And Prices
+                Serviços e Preços
               </h2>
             </div>
             
@@ -33,7 +32,7 @@ const ServicesSection = () => {
                 ))}
                 
                 <Button className="w-full mt-6 bg-coral hover:bg-coral/90 text-white">
-                  Book Appointment
+                  Agendar Serviço
                 </Button>
               </div>
             </Card>

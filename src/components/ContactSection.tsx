@@ -12,30 +12,29 @@ const ContactSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-5xl font-light text-foreground">
-                Contact Me
+                Entre Em Contato
               </h2>
               <p className="text-warm-gray leading-relaxed">
-                Ready to look and feel amazing? Get in touch to book your 
-                appointment or ask any questions about my services.
+              Pronto para ficar linda e se sentir incrível? 
+              Entre em contato para agendar sua consulta ou tirar dúvidas sobre meus serviços.
               </p>
             </div>
             
             <div className="space-y-6">
               <div className="space-y-2">
-                <h4 className="font-semibold text-foreground">Phone</h4>
-                <p className="text-warm-gray">+1 (555) 123-4567</p>
+                <h4 className="font-semibold text-foreground">Telefone</h4>
+                <p className="text-warm-gray">+55 (11)0123-4567</p>
               </div>
               
               <div className="space-y-2">
                 <h4 className="font-semibold text-foreground">Email</h4>
-                <p className="text-warm-gray">hello@katiewhillet.com</p>
+                <p className="text-warm-gray">katie@emailficticio.com</p>
               </div>
               
               <div className="space-y-2">
-                <h4 className="font-semibold text-foreground">Location</h4>
+                <h4 className="font-semibold text-foreground">Endereço</h4>
                 <p className="text-warm-gray">
-                  Downtown Beauty Studio<br />
-                  123 Main Street, City, State 12345
+                  Av. Paulista, 1410
                 </p>
               </div>
             </div>
@@ -58,29 +57,29 @@ const ContactSection = () => {
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
                 <Input 
-                  placeholder="First Name"
+                  placeholder="Primeiro Nome"
                   className="border-border focus:border-coral bg-white"
                 />
                 <Input 
-                  placeholder="Last Name"
+                  placeholder="Último Nome"
                   className="border-border focus:border-coral bg-white"
                 />
               </div>
               
               <Input 
                 type="email"
-                placeholder="Email Address"
+                placeholder="E-mail"
                 className="border-border focus:border-coral bg-white"
               />
               
               <Input 
                 type="tel"
-                placeholder="Phone Number"
+                placeholder="Telefone"
                 className="border-border focus:border-coral bg-white"
               />
               
               <Textarea 
-                placeholder="Tell me about your upcoming event or what service you're interested in..."
+                placeholder="Conte um pouco sobre o que deseja com nosso serviço..."
                 className="border-border focus:border-coral bg-white resize-none"
                 rows={5}
               />
@@ -89,7 +88,7 @@ const ContactSection = () => {
                 type="submit"
                 className="w-full bg-coral text-white hover:bg-coral/90 py-3"
               >
-                Send Message
+                Enviar Mensagem
               </Button>
             </form>
           </Card>

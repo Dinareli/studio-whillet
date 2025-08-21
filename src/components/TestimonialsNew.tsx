@@ -1,17 +1,17 @@
 const testimonials = [
   {
     name: "Sarah Johnson",
-    text: "Katie made me feel absolutely stunning on my wedding day. Her attention to detail is incredible!",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b732?w=100&h=100&fit=crop&crop=face"
+    text: "Katie fez eu me sentir deslumbrante no dia do meu casamento. Sua atenção aos detalhes é incrível!",
+    image: "https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?_gl=1*1ww1gzb*_ga*MjEyMzk1MjIzNS4xNzU1ODAxNzYz*_ga_8JE65Q40S6*czE3NTU4MDE3NjMkbzEkZzEkdDE3NTU4MDI3MTYkajUkbDAkaDA."
   },
   {
     name: "Emma Wilson",
-    text: "Professional, talented, and so lovely to work with. I've never felt more confident!",
+    text: "Profissional, talentosa e muito simpática! Nunca me senti tão confiante.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
   },
   {
     name: "Lisa Chen",
-    text: "Katie's makeup artistry is exceptional. She truly understands how to enhance natural beauty.",
+    text: "A maquiagem da Katie é excepcional. Ela realmente entende como realçar a beleza natural.",
     image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face"
   }
 ];
@@ -27,7 +27,7 @@ const TestimonialsNew = () => {
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-5xl font-light text-foreground">
-            What They Say
+            Avaliações
           </h2>
         </div>
         
