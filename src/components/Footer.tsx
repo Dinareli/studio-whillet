@@ -72,7 +72,7 @@ const Footer = () => {
                 placeholder="Seu Email"
                 className="text-sm border-border bg-white"
               />
-              <Button size="sm" className="bg-coral hover:bg-coral/90 text-white px-4">
+              <Button size="sm" className="bg-rose-400 hover:bg-coral/90 text-white px-4">
                 Inscrever
               </Button>
             </div>

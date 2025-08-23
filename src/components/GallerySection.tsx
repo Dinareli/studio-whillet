@@ -8,8 +8,8 @@ const galleryImages = [
 
 const GallerySection = () => {
   return (
-    <section id="gallery" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="gallery" className="min-h-screen bg-white flex items-center">
+      <div className="container mx-auto px-4 w-full">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-5xl font-light text-foreground">
             Galeria

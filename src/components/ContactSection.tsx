@@ -5,8 +5,8 @@ import { Card } from "@/components/ui/card";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="min-h-screen bg-white flex items-center">
+      <div className="container mx-auto px-4 w-full">
         <div className="grid lg:grid-cols-2 gap-16 max-w-6xl mx-auto">
           {/* Left - Contact Info */}
           <div className="space-y-8">
@@ -36,18 +36,6 @@ const ContactSection = () => {
                 <p className="text-warm-gray">
                   Av. Paulista, 1410
                 </p>
-              </div>
-            </div>
-            
-            <div className="flex space-x-4">
-              <div className="w-10 h-10 bg-light-gray rounded-full flex items-center justify-center hover:bg-coral hover:text-white transition-colors cursor-pointer">
-                <span className="text-sm">f</span>
-              </div>
-              <div className="w-10 h-10 bg-light-gray rounded-full flex items-center justify-center hover:bg-coral hover:text-white transition-colors cursor-pointer">
-                <span className="text-sm">ig</span>
-              </div>
-              <div className="w-10 h-10 bg-light-gray rounded-full flex items-center justify-center hover:bg-coral hover:text-white transition-colors cursor-pointer">
-                <span className="text-sm">tw</span>
               </div>
             </div>
           </div>
@@ -86,7 +74,7 @@ const ContactSection = () => {
               
               <Button 
                 type="submit"
-                className="w-full bg-coral text-white hover:bg-coral/90 py-3"
+                className="w-full bg-rose-400 text-white hover:bg-coral/90 py-3"
               >
                 Enviar Mensagem
               </Button>

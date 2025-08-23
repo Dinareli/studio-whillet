@@ -18,13 +18,13 @@ const testimonials = [
 
 const TestimonialsNew = () => {
   return (
-    <section className="py-20 bg-muted relative">
+    <section className="min-h-screen bg-muted relative flex items-center">
       {/* Decorative elements */}
       <div className="absolute top-10 right-10 w-40 h-40 opacity-10">
         <div className="w-full h-full bg-coral rounded-full blur-2xl"></div>
       </div>
       
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 w-full">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-5xl font-light text-foreground">
             Avaliações

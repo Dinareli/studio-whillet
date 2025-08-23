@@ -11,8 +11,8 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="pricing" className="py-20 bg-muted">
-      <div className="container mx-auto px-4">
+    <section id="pricing" className="min-h-screen bg-muted flex items-center">
+      <div className="container mx-auto px-4 w-full">
         <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
           {/* Left - Services List */}
           <div className="space-y-8">
@@ -31,7 +31,7 @@ const ServicesSection = () => {
                   </div>
                 ))}
                 
-                <Button className="w-full mt-6 bg-coral hover:bg-coral/90 text-white">
+                <Button className="w-full mt-6 bg-rose-400 hover:bg-coral/90 text-white">
                   Agendar Serviço
                 </Button>
               </div>

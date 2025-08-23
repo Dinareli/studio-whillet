@@ -32,7 +32,7 @@ const Header = () => {
           <div className="flex-1 flex justify-end">
             <Button 
               size="sm"
-              className="bg-coral text-white hover:bg-coral/90 px-6"
+              className="bg-rose-400 text-white hover:bg-coral/90 px-6"
             >
               Contrate Agora
             </Button>

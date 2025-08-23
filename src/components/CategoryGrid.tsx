@@ -24,8 +24,8 @@ const categories = [
 
 const CategoryGrid = () => {
   return (
-    <section className="py-20 bg-soft-pink/30">
-      <div className="container mx-auto px-4">
+    <section className="min-h-screen bg-soft-pink/30 flex items-center">
+      <div className="container mx-auto px-4 w-full">
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {categories.map((category, index) => (
             <Card 
