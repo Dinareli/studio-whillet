@@ -10,7 +10,7 @@ const Header = () => {
             {/* Espaço reservado para logo futuro */}
           </div>
 
-            <nav className="flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-foreground hover:text-coral transition-colors">
               Home
             </a>
@@ -32,9 +32,10 @@ const Header = () => {
           <div className="flex-1 flex justify-end">
             <Button 
               size="sm"
-              className="bg-rose-400 text-white hover:bg-coral/90 px-6"
+              className="bg-rose-400 text-white hover:bg-coral/90 px-3 md:px-6 text-sm"
             >
-              Contrate Agora
+              <span className="hidden sm:inline">Contrate Agora</span>
+              <span className="sm:hidden">Contato</span>
             </Button>
           </div>
         </div>

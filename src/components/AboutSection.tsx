@@ -24,7 +24,7 @@ const AboutSection = () => {
               <p className="text-warm-gray text-sm uppercase tracking-wider">
                 CONHEÇA KATIE
               </p>
-              <h2 className="text-5xl font-light text-foreground">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-foreground">
                 Maquiadora
               </h2>
             </div>

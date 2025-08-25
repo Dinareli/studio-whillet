@@ -11,7 +11,7 @@ const ContactSection = () => {
           {/* Left - Contact Info */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-5xl font-light text-foreground">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-foreground">
                 Entre Em Contato
               </h2>
               <p className="text-warm-gray leading-relaxed">

@@ -13,7 +13,7 @@ const HeroSection = () => {
       </div>
       
       <div className="relative z-10 text-center space-y-6 px-4">
-        <h1 className="text-7xl lg:text-9xl font-light text-white leading-none">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-light text-white leading-none">
           Katie
           <br />
           <span className="font-normal">Whillet</span>

@@ -26,7 +26,7 @@ const TestimonialsNew = () => {
       
       <div className="container mx-auto px-4 w-full">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-5xl font-light text-foreground">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-foreground">
             Avaliações
           </h2>
         </div>
